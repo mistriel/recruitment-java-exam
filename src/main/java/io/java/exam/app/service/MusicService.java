@@ -34,4 +34,8 @@ public class MusicService {
         }
         return metadata;
     }
+
+    public List<Artist> getAllArtists(){
+        return artistRepository.findAll();
+    }
 }

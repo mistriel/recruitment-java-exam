@@ -23,4 +23,9 @@ GET http://localhost:8080/catalog/metadata
 Accept: application/json
 
 
+### Get Catalog Artists
+GET http://localhost:8080/catalog/artists
+Accept: application/json
+
+
 
