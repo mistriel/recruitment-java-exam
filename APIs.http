@@ -18,5 +18,9 @@ Content-Type: application/json
   "status": "ACTIVE"
 }
 
+### Get Catalog Metadata
+GET http://localhost:8080/catalog/metadata
+Accept: application/json
+
 
 

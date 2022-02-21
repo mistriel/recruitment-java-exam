@@ -1,6 +1,5 @@
 # Hello dear Candidate
-Welcome to users
-Although this is a "working" application - there are many caveats and malpractices embedded within the code.
+This is a "working" Demo application that intentionally implements malpractices and caveats that are embedded within its code.
 Our goal today is to walk through those pinpoints discuss & fix them during an online screen sharing session.
 
 > The session might be recorded for evaluation purpose only.
@@ -13,7 +12,7 @@ Our goal today is to walk through those pinpoints discuss & fix them during an o
 
 ## Instructions
 1. Open IntelliJ IDE
-2. Start new project from existing sources in `https://github/mistriel/xxcv`
+2. Start new project from existing sources in `https://github.com/mistriel/recruitment-java-exam`
 3. Run `DemoApplication` Server
 
 ## Database

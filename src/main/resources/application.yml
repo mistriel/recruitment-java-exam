@@ -10,3 +10,13 @@ spring:
     open-in-view: false
     hibernate:
       ddl-auto: create
+logging.level:
+  io:
+    java:
+      exam:
+        app: DEBUG
+  org:
+    springframework:
+      security: INFO
+#    hibernate:
+#      SQL: DEBUG

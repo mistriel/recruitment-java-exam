@@ -1,6 +1,8 @@
 package io.java.exam.app;
 
+import io.java.exam.app.repository.ArtistRepository;
 import io.java.exam.app.repository.UserRepository;
+import io.java.exam.app.service.MusicService;
 import io.java.exam.app.service.UserService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -20,5 +22,10 @@ public class DemoApplication {
 	@Bean
 	UserService userService(UserRepository userRepository){
 		return new UserService(userRepository);
+	}
+
+	@Bean
+	MusicService musicService(ArtistRepository artistRepository){
+		return new MusicService(artistRepository);
 	}
 }
