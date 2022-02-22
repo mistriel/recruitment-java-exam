@@ -38,4 +38,9 @@ public class MusicService {
     public List<Artist> getAllArtists(){
         return artistRepository.findAll();
     }
+
+    public String getSongLyrics(String artist, String song){
+        return LyricsClientSingleton.INSTANCE().getLyrics(artist, song);
+    }
+
 }

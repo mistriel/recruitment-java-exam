@@ -28,4 +28,6 @@ GET http://localhost:8080/catalog/artists
 Accept: application/json
 
 
-
+### Get Song Lyrics
+GET http://localhost:8080/catalog/Michael%20Jackson/smooth%20criminal/lyrics
+Accept: application/json

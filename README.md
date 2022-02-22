@@ -22,3 +22,7 @@ H2 in-memory DB. Initial content provided by `data.sql`, where `schema.sql` allo
 
 ## API
 See `APIs.http` file for endpoints
+
+# Dear Reviewer
+The instructions, questions and solutions can be provided by access to a secret Gist link 
+that can be shared by [Avi Mistriel](https://gist.github.com/mistriel) 
