@@ -9,6 +9,7 @@ Our goal today is to walk through those pinpoints discuss & fix them during an o
 
 1. IntelliJ IDE
 2. JDK 8 or above
+3. Postman (if you use IntelliJ community edition)
 
 ## Instructions
 1. Open IntelliJ IDE
