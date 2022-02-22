@@ -1,4 +1,4 @@
-# Hello dear Candidate
+# Hello Dear Candidate
 This is a "working" Demo application that intentionally implements malpractices and caveats that are embedded within its code.
 Our goal today is to walk through those pinpoints discuss & fix them during an online screen sharing session.
 
@@ -13,7 +13,8 @@ Our goal today is to walk through those pinpoints discuss & fix them during an o
 ## Instructions
 1. Open IntelliJ IDE
 2. Start new project from existing sources in `https://github.com/mistriel/recruitment-java-exam`
-3. Run `DemoApplication` Server
+3. Enable annotation processing (IntelliJ will hint you for that)   
+4. Run `DemoApplication` Server
 
 ## Database
 H2 in-memory DB. Initial content provided by `data.sql`, where `schema.sql` allows DB migrations and manipulations on the DB structure.
@@ -21,8 +22,11 @@ H2 in-memory DB. Initial content provided by `data.sql`, where `schema.sql` allo
 [H2 Console](http://localhost:8080/h2-console) provides DB console to the in memory DB
 
 ## API
-See `APIs.http` file for endpoints
+There are several APIs exposed by this application server, for your convenience they are gathered in `APIs.http` file.  
+You can run all APIs directly from IntelliJ if you have ultimate version or use Postman instead.
 
-# Dear Reviewer
-The instructions, questions and solutions can be provided by access to a secret Gist link 
-that can be shared by [Avi Mistriel](https://gist.github.com/mistriel) 
+# For Reviewer
+The instructions, guidelines and potential solutions can be provided by access to
+[Avi Mistriel](https://gist.github.com/mistriel) secret Gist link.  
+
+Reach me for access. 
