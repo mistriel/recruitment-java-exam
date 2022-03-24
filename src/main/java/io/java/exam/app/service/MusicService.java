@@ -23,12 +23,11 @@ public class MusicService {
         metadata.setArtists(artistList.size());
 
         for(Artist artist: artistList){
+            metadata.setAlbums(metadata.getAlbums() + artist.getAlbums().size());
             for(Album album: artist.getAlbums() ){
-                metadata.setAlbums(metadata.getAlbums() + artist.getAlbums().size());
                 metadata.setSongs(metadata.getSongs() + album.getSongs().size());
                 for(Song song: album.getSongs()){
                     metadata.setDuration(metadata.getDuration() + song.getDuration());
-
                 }
             }
         }
